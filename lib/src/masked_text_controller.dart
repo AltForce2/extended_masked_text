@@ -34,7 +34,7 @@ class MaskedTextController extends TextEditingController {
   /// that can be annoying in some cases.
   MaskedTextController({
     required this.mask,
-    this.cursorBehavior = CursorBehavior.end,
+    this.cursorBehavior = CursorBehavior.unlocked,
     BeforeChangeCallback? beforeChange,
     AfterChangeCallback? afterChange,
     String? text,
