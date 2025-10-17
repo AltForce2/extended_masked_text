@@ -24,7 +24,7 @@ class MoneyMaskedTextController extends TextEditingController {
     this.rightSymbol = '',
     this.leftSymbol = '',
     this.precision = 2,
-    this.cursorBehavior = CursorBehavior.end,
+    this.cursorBehavior = CursorBehavior.unlocked,
   }) {
     _validateConfig();
     _shouldApplyTheMask = true;
